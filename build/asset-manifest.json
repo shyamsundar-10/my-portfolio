@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.00c410e9.css",
+    "main.js": "/static/js/main.96597e83.js",
+    "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
+    "static/media/header-img.png": "/static/media/header-img.de3609b9c5f9844bca44.png",
+    "static/media/todo.png": "/static/media/todo.58ce977ce54b99c08cf1.png",
+    "static/media/todolist.png": "/static/media/todolist.c30e11d7987367e1938c.png",
+    "static/media/voice.png": "/static/media/voice.71b1f85e3262ef9a63f3.png",
+    "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/b2cart.png": "/static/media/b2cart.4fd88b41573bef0060a5.png",
+    "static/media/artnook.png": "/static/media/artnook.4eddcb307f327ee0a90f.png",
+    "static/media/moon.png": "/static/media/moon.a61707f2b3df469d643a.png",
+    "static/media/logo.png": "/static/media/logo.9bfeb0b3ed46531664fb.png",
+    "static/media/SFUIText-Bold.otf": "/static/media/SFUIText-Bold.84964764bedcaf09c239.otf",
+    "static/media/SFUIText-Medium.otf": "/static/media/SFUIText-Medium.991d8a04af41230b1281.otf",
+    "static/media/book.png": "/static/media/book.1cfddb17b3377c625ae8.png",
+    "static/media/SFUIText-Regular.otf": "/static/media/SFUIText-Regular.3891cf449d0d4808a8b5.otf",
+    "static/media/mongodb.png": "/static/media/mongodb.d5c3dea9cc85955777cb.png",
+    "static/media/react.png": "/static/media/react.57c4a49f6803d191097e.png",
+    "static/media/web.png": "/static/media/web.be50d4568ab0cb01edb8.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/python.png": "/static/media/python.9c47735ea0c4a2d20349.png",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/nav-icon2.svg": "/static/media/nav-icon2.235299bd28509f4faf8f542925d30258.svg",
+    "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "index.html": "/index.html",
+    "static/media/arrow2.svg": "/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
+    "static/media/arrow1.svg": "/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
+    "main.00c410e9.css.map": "/static/css/main.00c410e9.css.map",
+    "main.96597e83.js.map": "/static/js/main.96597e83.js.map",
+    "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00c410e9.css",
+    "static/js/main.96597e83.js"
+  ]
+}
