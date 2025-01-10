@@ -295,27 +295,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   align-items: center;
 }
-.banner button svg {
-  font-size: 25px;
-  margin-left: 10px;
-  transition: 0.3s ease-in-out;
-  line-height: 1;
-  animation: jump 1s linear infinite;
-}
-@keyframes jump {
-  0% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(3px);
-  }
-  100%{
-    transform: translateY(0px);
-  }
-}
-/* .txt-rotate > .wrap {
-  border-right: 0.08em solid #666;
-} */
 
 /************ Skills Css ************/
 .skill {

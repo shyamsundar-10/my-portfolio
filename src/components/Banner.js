@@ -1,7 +1,6 @@
-// import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.png";
-import { ArrowDownCircle } from "react-bootstrap-icons";
+import resume from "../assets/Shyam_Resume.pdf";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -24,8 +23,8 @@ export const Banner = () => {
                     real-world problems through impactful solutions. Let’s
                     create something amazing together!
                   </p>
-                  <button onClick={() => console.log("connect")}>
-                    Explore my Portfolio <ArrowDownCircle size={25} />
+                  <button>
+                    Know more - &nbsp;<a href={resume} download="Shyam_Resume"> Resume </a>
                   </button>
                 </div>
               )}

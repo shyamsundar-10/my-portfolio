@@ -49,8 +49,8 @@ export const Projects = () => {
       description:
         "Developed a secure image encryption and decryption tool that protects sensitive images through scrambling and color-shifting techniques.",
       imgUrl: secure,
-      githubLink: "https://github.com/shyamsundar-10/book-recommender",
-      projectLink: "https://findbook-shyamsundar-10.netlify.app/",
+      githubLink: "https://github.com/shyamsundar-10/SecurePIX",
+      projectLink: "https://securepix.streamlit.app/",
     },
     {
       title: "B2chats",
