@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import moon from "../assets/img/moon.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -44,7 +43,7 @@ export const Contact = () => {
           {({ isVisible }) => (
             <div className={isVisible ? "animate__animated " : ""}>
               <h2>Get In Touch</h2>
-              <form onSubmit={handleSubmit}>
+              <form className="cform" onSubmit={handleSubmit}>
                 <Row>
                   <Col size={12} sm={6} className="px-1">
                     <input

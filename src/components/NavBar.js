@@ -3,7 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../assets/img/logo.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
-// import navIcon3 from "../assets/img/nav-icon3.svg";
+import navIcon3 from "../assets/img/nav-icon3.svg";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
 
@@ -79,9 +79,9 @@ export const NavBar = () => {
                 <a href="https://github.com/shyamsundar-10">
                   <img src={navIcon2} alt="github" />
                 </a>
-                {/* <a href="https://www.instagram.com/b2editsun/">
+                <a href="https://www.instagram.com/b2editsun/">
                   <img src={navIcon3} alt="instagram" />
-                </a> */}
+                </a>
               </div>
               <HashLink to="#connect">
                 <button className="vvd">

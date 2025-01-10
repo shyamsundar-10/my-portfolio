@@ -1,12 +1,15 @@
 import { Container, Row, Col, Tab, Nav, Modal, Button } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import { useState } from "react";
-import todo from "../assets/img/todo.png";
+import calendar from "../assets/img/calendar.png";
+import book from "../assets/img/book.png";
+import secure from "../assets/img/securepix.png";
+import b2chats from "../assets/img/b2chats.png";
 import todolist from "../assets/img/todolist.png";
 import b2cart from "../assets/img/b2cart.png";
-import voice from "../assets/img/voice.png";
-import book from "../assets/img/book.png";
 import artnook from "../assets/img/artnook.png";
+import portfolio from "../assets/img/portfolio.png";
+import voice from "../assets/img/voice.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -26,6 +29,38 @@ export const Projects = () => {
 
   const webapps = [
     {
+      title: "Event Calender",
+      description:
+        "Developed a Dynamic Event Calendar Application that allows users to view, add, and delete events on a calendar.",
+      imgUrl: calendar,
+      githubLink: "https://github.com/shyamsundar-10/event-calendar",
+      projectLink: "https://calendar-shyamsundar-10.netlify.app/",
+    },
+    {
+      title: "FindBook",
+      description:
+        "Developed a responsive web-based book recommender system to help users discover books tailored to their interests with a buy button which redirects user to purchase it from authentic sellers from google search results.",
+      imgUrl: book,
+      githubLink: "https://github.com/shyamsundar-10/book-recommender",
+      projectLink: "https://findbook-shyamsundar-10.netlify.app/",
+    },
+    {
+      title: "SecurePix",
+      description:
+        "Developed a secure image encryption and decryption tool that protects sensitive images through scrambling and color-shifting techniques.",
+      imgUrl: secure,
+      githubLink: "https://github.com/shyamsundar-10/book-recommender",
+      projectLink: "https://findbook-shyamsundar-10.netlify.app/",
+    },
+    {
+      title: "B2chats",
+      description:
+        "Developed a social media platform using React.js that allows users to create, share, like/unlike, comment on posts with dark/light mode.",
+      imgUrl: b2chats,
+      githubLink: "https://github.com/shyamsundar-10/b2chats",
+      projectLink: "https://b2chats.netlify.app/",
+    },
+    {
       title: "To-DO-List",
       description:
         "Developed a React.js To-Do-List web app, hosted on Netlify, with features like task creation, editing, deletion, and completion tracking.",
@@ -42,12 +77,12 @@ export const Projects = () => {
       projectLink: "https://artnook-shyamsundar-10.netlify.app/",
     },
     {
-      title: "Simple To-Do-List",
+      title: "Portfolio",
       description:
-        "Developed a simple To-Do-List web app, hosted on Netlify, with features like task creation deletion, and completion tracking.",
-      imgUrl: todo,
-      githubLink: "https://github.com/shyamsundar-10/simple-to-do-list",
-      projectLink: "https://simple-todo-shyamsundar-10.netlify.app/",
+        "A visually appealing Portfolio website using ReactJs, where visitors can checkout my skills and projects and send me feedback through email.",
+      imgUrl: portfolio,
+      githubLink: "https://github.com/shyamsundar-10/my-portfolio",
+      projectLink: "https://shyamsundar-10.netlify.app/",
     },
   ];
 
@@ -64,13 +99,6 @@ export const Projects = () => {
   ];
 
   const others = [
-    {
-      title: "Book Recommender System",
-      description: "Machine Learning group project.",
-      imgUrl: book,
-      githubLink: "https://github.com/shyamsundar-10/book-recommender",
-      projectLink: "https://findbook-shyamsundar-10.netlify.app/",
-    },
     {
       title: "Voice Controlled Light System",
       description:
